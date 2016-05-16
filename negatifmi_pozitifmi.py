@@ -16,7 +16,13 @@ negatifmi_pozitifmi_ico = """
 
 print negatifmi_pozitifmi_ico
 
+star = "#################################################################"
+
+print star
+
 sayi = int(input("Bir sayı giriniz : "))
+
+print star
 
 negatif_mesaj_ico = "Girdiğiniz sayı negatifdir."
 pozitif_mesaj_ico = "Girdiğiniz sayı pozitifdir."
@@ -24,9 +30,11 @@ notr_mesaj_ico = "Girdiğiniz sayı nötrdür."
 
 if sayi < 0:
 	print "Sonuç : " + negatif_mesaj_ico
-
+	print star
+	
 elif sayi == 0:
 	print "Sonuç : " + notr_mesaj_ico
-
+	print star
 else:
 	print "Sonuç : " + pozitif_mesaj_ico
+	print
