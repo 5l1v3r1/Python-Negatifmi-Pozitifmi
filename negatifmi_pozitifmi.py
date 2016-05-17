@@ -20,7 +20,7 @@ star = "#################################################################"
 
 print star
 
-sayi = int(input("Bir sayı giriniz : "))
+sayi = float(input("Bir sayı giriniz : "))
 
 print star
 
