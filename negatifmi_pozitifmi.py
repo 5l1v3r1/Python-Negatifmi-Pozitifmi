@@ -37,4 +37,4 @@ elif sayi == 0:
 	print star
 else:
 	print "Sonuç : " + pozitif_mesaj_ico
-	print
+	print star
